@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { Download, ArrowRight, Sparkles, Layers, Cpu } from 'lucide-react';
-import { GithubIcon, LinkedinIcon, TwitterIcon } from '../ui/SocialIcons';
+import { GithubIcon, LinkedinIcon } from '../ui/SocialIcons';
 import { personalInfo, stats } from '../../data/portfolio';
 import { useCounter } from '../../hooks';
 import { FloatingShape } from '../ui';
