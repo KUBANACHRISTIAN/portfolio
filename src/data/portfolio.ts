@@ -2,7 +2,7 @@ export const personalInfo = {
   name: 'Iradukunda Kubana Christian',
   title: 'Full-Stack Developer & UI/UX Designer',
   tagline: 'Crafting digital experiences that inspire.',
-  bio: "I'm a passionate full-stack developer building scalable web applications and beautiful user interfaces. I specialize in React, Node.js, and cloud architecture, turning complex problems into elegant solutions.",
+  bio: "Third-year Software Engineering student at AUCA. WDA certified in computer repair, electronics, and applied programming, with hands-on experience in embedded systems, network installation, and basic electrical engineering. ISC2 Certified in Cybersecurity and Runner-Up at primeCTF-Africa 2026.",
   email: 'chrikubana140@gmail.com',
   phone: '0791495433',
   location: 'Kigali, Rwanda',
@@ -10,7 +10,7 @@ export const personalInfo = {
   cvUrl: 'https://docs.google.com/document/d/1UFAFDkzFawSg-N77tndlFouMggBFnGCfDru522ROym0/edit?tab=t.0',
   social: {
     github: 'https://github.com/KUBANACHRISTIAN',
-    linkedin: 'https://linkedin.com',
+    linkedin: 'https://www.linkedin.com/in/christian-kubana-iradukunda-54b57137b/',
     twitter: 'https://twitter.com',
     dribbble: 'https://dribbble.com',
   },
@@ -92,34 +92,58 @@ export const techBadges = [
 
 export const experience = [
   {
-    company: 'Freelance & Personal Projects',
-    logo: '🚀',
-    role: 'Full-Stack Developer',
-    period: '2024 – Present',
+    company: 'Nova Services Kigali Ltd.',
+    logo: '🔧',
+    role: 'Trainee & Participant',
+    period: '2022 – 2023',
     location: 'Kigali, Rwanda',
-    description: 'Building and shipping full-stack web and mobile applications for clients and personal projects. Focused on React, Node.js, and modern cloud infrastructure.',
-    tech: ['React', 'Node.js', 'TypeScript', 'Tailwind CSS', 'PostgreSQL'],
+    description: 'Completed practical training in Windows application development (C/C++) and embedded systems projects using Arduino. Built a foundational understanding of firmware projects and CCTV/electronics installation. Completed training in setting up and configuring Raspberry Pi 4 for IoT and educational computing projects. Achieved a distinction with a 97% performance score.',
+    tech: ['C/C++', 'Arduino', 'Raspberry Pi', 'IoT', 'CCTV'],
   },
 ];
 
 export const education = [
   {
     degree: 'B.Sc. Software Engineering',
-    school: 'MIT',
+    school: 'Adventist University of Central Africa (AUCA)',
     period: '2024 – Present',
-    gpa: '3.9/4.0',
+    gpa: 'In Progress',
   },
   {
-    degree: 'A2 — Software Development',
+    degree: 'Advanced Level — Software Development (A2)',
     school: 'Ecole Technique St. Kizito Musha (ETSK), Rwanda',
     period: '2020 – 2023',
     gpa: 'Diploma',
+  },
+  {
+    degree: 'O-Level & Primary',
+    school: 'G.S Nyamata E.P.R',
+    period: '2017 – 2020',
+    gpa: 'Certificate',
   },
   {
     degree: "Runner's Up — East Africa College Category",
     school: 'primeCTF-Africa 2026 · Team AnotherONE',
     period: '2026',
     gpa: 'Achievement',
+  },
+  {
+    degree: 'ISC2 — CC Domain 1: Security Principles',
+    school: 'ISC2',
+    period: '2026',
+    gpa: 'Certification',
+  },
+  {
+    degree: 'Advanced Network Operations 2.0',
+    school: 'Internet Society',
+    period: '2024',
+    gpa: 'Certification',
+  },
+  {
+    degree: 'WDA Certifications — Computer Repair, Electronics, Practical Programming',
+    school: 'Workforce Development Authority (WDA)',
+    period: '2023',
+    gpa: 'Certification',
   },
 ];
 
@@ -128,7 +152,7 @@ export const projects = [
     title: 'REGSmart',
     category: 'Web App',
     description: 'REGSmart is an AI-powered electricity theft detection and smart monitoring system designed for Rwanda Energy Group (REG). It uses machine learning to identify unusual electricity consumption patterns, detect potential theft, and generate alerts for field inspectors. The system provides a web-based dashboard for monitoring consumers, managing alerts, and generating reports to support efficient revenue protection and better decision-making.',
-    image: 'https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=600&h=400&fit=crop',
+    image: '/regsmart.png',
     tech: ['React', 'Node.js', 'PostgreSQL', 'Tailwind CSS'],
     github: 'https://github.com/KUBANACHRISTIAN/REGSmart',
     demo: '#',
